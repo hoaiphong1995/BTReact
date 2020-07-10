@@ -1,0 +1,13 @@
+Buổi 1
+ * Component: 
+ - Statefull Component (class)
+ - Stateless Component (function)
+
+- Bài tập 2
++ Header
++ Carousel
++ WhatWeDo
++ Contact
++ 
+
+Khi state thay đổi thì hàm render sẽ chạy lại

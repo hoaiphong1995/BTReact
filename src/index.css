@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  background-color: red;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  color: white;
+}
+.contents {
+  display: flex;
+}
+.content {
+  width: 70%;
+  background-color: green;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  color: white;
+}
+.sidebar {
+  width: 30%;
+  background-color: pink;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  color: white;
+}
+.footer {
+  background-color: blue;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  color: white;
+}
+.itemphone {
+  display: flex;
+  justify-content: space-around;
+  background-color: #343a40;
+}
+.itemlaptop {
+  justify-content: space-around;
+  background-color: white;
+}
+.carousel .carousel-inner img {
+  width: 100%;
+}
+
+.footer-3 {
+  background-color: #343a40;
+  height: 380px;
+}
+.footer-3 .promotion img {
+  height: 100%;
+}
+
+.itemlaptop1 .card {
+  margin: 25px;
+}
+
+.itemphone1 .card {
+  margin: 25px;
+}
+
+.title {
+  color: red;
+}
+.text__movie {
+  height: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 25px;
+}
